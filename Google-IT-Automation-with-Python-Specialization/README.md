@@ -1,5 +1,4 @@
-## Google-IT-Automation-with-Python
+## Google-IT-Automation-with-Python Specialization
 
-### Coursera's Google IT automation with Python Specialization
 
-### This repo contains the code snippets and files that will help you in completing the courses if you are stuck .
+### This module contains the code snippets and files that will help you in completing the courses if you are stuck .
