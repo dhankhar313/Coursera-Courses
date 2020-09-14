@@ -1,6 +1,3 @@
-# python3
-
-
 def max_pairwise_product(numbers):
     numbers.sort()
 
