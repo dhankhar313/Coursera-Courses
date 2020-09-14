@@ -3,9 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-int MaxPairwiseProduct(vector<int>& numbers) {
+long long MaxPairwiseProduct(vector<int>& numbers) {
     sort(numbers.begin(), numbers.end(), greater<int>());
-    return numbers[0]*numbers[1];
+    return (long long)numbers[0] * (long long)numbers[1];
 }
 
 int main() {
