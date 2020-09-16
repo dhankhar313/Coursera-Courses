@@ -3,26 +3,26 @@
 #include <numeric>
 using namespace std;
 
-int fibonacci_sum_last_digit(int n) {
-    vector<int> f(n + 1);
+int fibonacci_sum_last_digit(int m, int n) {
+    vector<int> f;
     f[0] = 0;
     f[1] = 1;
     for (int i = 2; i <= 60; i++){
         f[i] = (f[i-1] + f[i-2]) % 10;
     }
-    int rem = n % 60;
-    int quotient = (n - rem) / 60;
-    int sum1 = accumulate(f.begin(), f.end(), 0) * quotient;
-    int sum2 = accumulate(f.begin(), f.begin() + rem + 1, 0);
-    return (sum1 + sum2) % 10;
+    int rem1 = m % 60;
+    int quotient1 = (m - rem1) / 60;
+    int rem2 = n % 60;
+    int quotient2 = (n - rem2) / 60;
+    int sum1 = accumulate(f.begin() + rem1, f.end(), 0);
+    int sum2 = accumulate(f.begin(), f.begin() + rem2 + 1, 0);
+    int sum3 = accumulate(f.begin(), f.end(), 0) *  (quotient2 - (quotient1 + 1));
+    return (sum1 + sum2 +sum3) % 10; 
 }
 
 int main() {
-    int n;
-    cin >> n;
-    if (n <= 1)
-        cout << n;
-    else
-        cout << fibonacci_sum_last_digit(n) << '\n';
+    int m, n;
+    cin >> m >> n;
+    cout << fibonacci_sum_last_digit(m, n) << '\n';
     return 0;
 }

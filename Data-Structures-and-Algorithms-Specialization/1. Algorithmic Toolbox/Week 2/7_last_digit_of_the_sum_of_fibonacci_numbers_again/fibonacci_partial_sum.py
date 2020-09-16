@@ -1,13 +1,15 @@
-def calc_fib(n):
+def calc_fib(m, n):
 
     f = [0, 1]
     for i in range(2, 61):
         f.insert(i, (f[i-1] + f[i-2]) % 10)
-    rem = n % 60
-    quotient = (n - rem) / 60
-    sum1 = sum(f) * quotient
-    sum2 = sum(f[0: rem+1])
-    return int((sum1 + sum2) % 10)
+    rem1 = m % 60
+    quotient1 = (m - rem1) / 60
+    rem2 = n % 60
+    quotient2 = (n - rem2) / 60
+    sum1, sum2, sum3 = sum(f[rem1:]), sum(f[:rem2+1]), sum(f) * (quotient2 - (quotient1 + 1))
+    return int((sum1 + sum2 +sum3) % 10)
 
-n = int(input())
-print(calc_fib(n))
+if __name__ == '__main__':
+    m, n = map(int, input().split())
+    print(calc_fib(m, n))
