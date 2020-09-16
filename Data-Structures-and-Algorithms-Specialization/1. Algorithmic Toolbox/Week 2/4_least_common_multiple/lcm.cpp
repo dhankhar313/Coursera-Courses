@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int EuclidGCD(int a, int b){
+long long EuclidGCD(long long a, long long b){
     if (b == 0){
         return a;
     }
-    int rem = a % b;
+    long long rem = a % b;
     return EuclidGCD(b, rem);
 }
 
-int lcm(int a, int b){
-    int gcd = EuclidGCD(a, b);
-    int num = a / gcd;
+long long lcm(long long a, long long b){
+    long long gcd = EuclidGCD(a, b);
+    long long num = a / gcd;
     return num*b;
 }
 
 int main(){
-    int a, b;
+    long long a, b;
     cin >> a >> b;
     cout << lcm(a, b);
     return 0;

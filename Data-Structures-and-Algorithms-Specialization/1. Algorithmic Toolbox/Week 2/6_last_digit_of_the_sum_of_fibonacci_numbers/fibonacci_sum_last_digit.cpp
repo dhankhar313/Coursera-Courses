@@ -3,8 +3,8 @@
 #include <numeric>
 using namespace std;
 
-int fibonacci_sum_last_digit(int n) {
-    vector<int> f(n + 1);
+long long fibonacci_sum_last_digit(long long n) {
+    vector<long> f(n + 1);
     f[0] = 0;
     f[1] = 1;
     for (int i = 2; i <= 60; i++){
@@ -16,7 +16,7 @@ int fibonacci_sum_last_digit(int n) {
 }
 
 int main() {
-    int n;
+    long n;
     cin >> n;
     if (n <= 1)
         cout << n;
