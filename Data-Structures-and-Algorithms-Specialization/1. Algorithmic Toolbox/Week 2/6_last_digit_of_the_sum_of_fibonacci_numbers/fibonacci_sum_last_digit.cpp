@@ -12,9 +12,7 @@ int fibonacci_sum_last_digit(int n) {
     }
     int rem = n % 60;
     int quotient = (n - rem) / 60;
-    int sum1 = accumulate(f.begin(), f.end(), 0) * quotient;
-    int sum2 = accumulate(f.begin(), f.begin() + rem + 1, 0);
-    return (sum1 + sum2) % 10;
+    return (accumulate(f.begin(), f.end(), 0) * quotient + accumulate(f.begin(), f.begin() + rem + 1, 0)) % 10;
 }
 
 int main() {
