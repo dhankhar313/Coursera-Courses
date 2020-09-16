@@ -4,11 +4,11 @@
 using namespace std;
 
 long long fibonacci_sum_last_digit(long long n) {
-    vector<long> f(n + 1);
-    f[0] = 0;
-    f[1] = 1;
+    vector<int> f;
+    f.push_back(0);
+    f.push_back(1);
     for (int i = 2; i <= 60; i++){
-        f[i] = (f[i-1] + f[i-2]) % 10;
+        f.push_back((f[i-1] + f[i-2]) % 10);
     }
     int rem = n % 60;
     int quotient = (n - rem) / 60;
@@ -16,7 +16,7 @@ long long fibonacci_sum_last_digit(long long n) {
 }
 
 int main() {
-    long n;
+    int n;
     cin >> n;
     if (n <= 1)
         cout << n;

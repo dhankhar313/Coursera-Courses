@@ -3,11 +3,11 @@
 using namespace std;
 
 int fibonacci_fast(int n) {
-    vector<int> f(n + 1);
-    f[0] = 0;
-    f[1] = 1;
+    vector<int> f;
+    f.push_back(0);
+    f.push_back(1);
     for (int i = 2; i <= 60; i++){
-        f[i] = (f[i-1] + f[i-2]) % 10;
+        f.push_back((f[i-1] + f[i-2]) % 10);
     }
     int temp = n % 60;
     return f[temp];
