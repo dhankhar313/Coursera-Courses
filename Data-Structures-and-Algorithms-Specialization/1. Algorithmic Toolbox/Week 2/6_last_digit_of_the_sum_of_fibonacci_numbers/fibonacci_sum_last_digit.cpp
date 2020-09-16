@@ -10,13 +10,13 @@ long long fibonacci_sum_last_digit(long long n) {
     for (int i = 2; i <= 60; i++){
         f.push_back((f[i-1] + f[i-2]) % 10);
     }
-    int rem = n % 60;
-    int quotient = (n - rem) / 60;
+    long long rem = n % 60;
+    long long quotient = (n - rem) / 60;
     return (accumulate(f.begin(), f.end(), 0) * quotient + accumulate(f.begin(), f.begin() + rem + 1, 0)) % 10;
 }
 
 int main() {
-    int n;
+    long long n;
     cin >> n;
     if (n <= 1)
         cout << n;
