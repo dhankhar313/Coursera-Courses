@@ -1,96 +1,68 @@
 ## Quiz
 
+### Question 1
+
 Under what conditions should an integrated circuit be used in an IoT device?
 
-1 point
+### Answer
 
-When highest performance is required.
+    When highest performance is required.
+    When lowest power is required.
+    When the function is already commonly available as an integrated circuit.
+    All of the above. (Correct)
 
-When lowest power is required.
+### Question 2
 
-When the function is already commonly available as an integrated circuit.
+Given a choice between implementing a function as an integrated circuit (in hardware) or as a program (in software), what factor needs to be considered the least?
 
-@All of the above.
+### Answer
 
-2.  Question 2
-    Given a choice between implementing a function as an integrated circuit (in hardware) or as a program (in software), what factor needs to be considered the least?
+The physical look of the final device.
 
-1 point
+### Question 3
 
-The cost of manufacturing the integrated circuit.
+Generally, in a computer-based system, main memory is much larger than cache.
 
-The required time to design the integrated circuit vs. the program.
+### Answer
 
-The performance required of the final product.
+True
 
-@The physical look of the final device.
+### Question 4
 
-3.  Question 3
-    Generally, in a computer-based system, main memory is much larger than cache.
+What is the fastest type of storage in a computer-based device?
 
-1 point
+### Answer
 
-@True
+Registers
 
-False
+### Question 5
 
-4.  Question 4
-    What is the fastest type of storage in a computer-based device?
+Which statement is false?
 
-1 point
+### Answer
 
-@Registers
+Machine language is universal, allowing programs written in machine language to be executed on any microprocessor.
 
-Cache
+### Question 6
 
-Flash
+What does an assembler generate?
 
-Main memory
+### Answer
 
-5.  Question 5
-    Which statement is false?
+Machine code from assembly code.
 
-1 point
+### Question 7
 
-A programmer may write assembly code directly if performance is very important.
+Compiled code generally executes faster than interpreted code.
 
-High-level languages are generally easier to program in than assembly language.
+### Answer
 
-@Machine language is universal, allowing programs written in machine language to be executed on any microprocessor.
+True
 
-Assembly code is easier to read than machine code.
+### Question 8
 
-6.  Question 6
-    What does an assembler generate?
+Which of the following is NOT a benefit of using an operating system?
 
-1 point
+### Answer
 
-@Machine code from assembly code.
-
-Assembly code from a high-level language.
-
-Assembly code from machine code.
-
-Machine code from a high-level language.
-
-7.  Question 7
-    Compiled code generally executes faster than interpreted code.
-
-1 point
-
-@True
-
-False
-
-8.  Question 8
-    Which of the following is NOT a benefit of using an operating system?
-
-1 point
-
-Many programs can execute on the same processor at the same time.
-
-@The frequency of the microcontroller clock can be significantly increased.
-
-The operating system provides a convenient programming interface to the hardware.
-
-The operating system enables separation between multiple processes.
+The frequency of the microcontroller clock can be significantly increased.
