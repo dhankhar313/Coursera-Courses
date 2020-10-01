@@ -9,8 +9,8 @@ void loop()
   {
     char input = Serial.read();
     if (input == '0')
-      digitalWrite(13, 0);
+      digitalWrite(13, LOW);
     else if (input == '1')
-      digitalWrite(13, 1);
+      digitalWrite(13, HIGH);
   }
 }
