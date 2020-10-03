@@ -1,94 +1,65 @@
+## Quiz
+
+### Question 1
+
 Which component is not contained on the Raspberry Pi B+ board?
 
-1 point
+### Answer
 
-USB ports
+Analog-to-Digital converter
 
-@Analog-to-Digital converter
+### Question 2
 
-Ethernet port
+An ARM-based processor is
 
-micro SD slot
+### Answer
 
-2.  Question 2
-    An ARM-based processor is
+A processor which contains a core designed by ARM Ltd.
 
-1 point
+### Question 3
 
-A processor manufactured in its entirety by ARM Ltd.
+Which of the following is not a task of an operating system?
 
-A processor manufactured in part by ARM Ltd.
+### Answer
 
-A processor whose design is similar to that of an ARM processor
+Improve performance by increasing clock frequency of the processor
 
-@A processor which contains a core designed by ARM Ltd.
+### Question 4
 
-3.  Question 3
-    Which of the following is not a task of an operating system?
+Which feature of the Raspberry Pi tends to make it seem like it is not an IoT device?
 
-1 point
+### Answer
 
-@Improve performance by increasing clock frequency of the processor
+It provides a graphic interface using a keyboard, monitor and mouse
 
-Support the execution of multiple processes
+### Question 5
 
-Enable access to a filesystem
+Once the Raspberry Pi has been configured, what must be contained on the micro SD card?
 
-Hide hardware details from the user
+### Answer
 
-4.  Question 4
-    Which feature of the Raspberry Pi tends to make it seem like it is not an IoT device?
+The operating system
 
-1 point
+### Question 6
 
-It can directly interact with sensors and actuators
+Which of the following is not an impact of overclocking?
 
-It is small and cheap
+### Answer
 
-@It provides a graphic interface using a keyboard, monitor and mouse
+Improved temperature profile
 
-D. It provides network connectivity and computational intelligence
+### Question 7
 
-5.  Question 5
-    Once the Raspberry Pi has been configured, what must be contained on the micro SD card?
+raspi-config can only be used during the initial setup.
 
-1 point
-
-@The operating system
-
-The firmware
-
-The web browser
-
-The MAC address
-
-6.  Question 6
-    Which of the following is not an impact of overclocking?
-
-1 point
-
-More instructions executed per unit time
-
-Increased power consumption
-
-@Improved temperature profile
-
-Reduced reliability
-
-7.  Question 7
-    raspi-config can only be used during the initial setup.
-
-1 point
-
-True
-
-@False
-
-8.  Question 8
-    The Raspberry Pi can be configured to boot directly to the desktop
-
-1 point
-
-@True
+### Answer
 
 False
+
+### Question 8
+
+The Raspberry Pi can be configured to boot directly to the desktop
+
+### Answer
+
+True
