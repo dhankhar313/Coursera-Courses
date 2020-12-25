@@ -3,10 +3,11 @@ def knapsack(dict, capacity):
     temp = []
     for i, j in dict:
         temp_value, temp_weight = j
-        if temp_weight <= capacity and i not in temp and capacity != 0:
+        if temp_weight <= capacity != 0 and i not in temp:
             amount += temp_value
             capacity -= temp_weight
-        elif temp_weight > capacity and i not in temp and capacity != 0:
+
+        elif temp_weight > capacity != 0 and i not in temp:
             amount += temp_value / (temp_weight / capacity)
         else:
             pass
