@@ -32,7 +32,7 @@ How do GCP customers and Google Cloud Platform divide responsibility for securit
 
 ### Answer
 
-Google takes care of the higher parts of the stack, and customers are responsible for the lower parts.
+Google takes care of the lower parts of the stack, and customers are responsible for the higher parts.
 
 ### Que 5
 
