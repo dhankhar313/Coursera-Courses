@@ -38,9 +38,8 @@ For what kind of traffic would the regional load balancer be the first choice? C
 
 ### Answer
 
-UDP traffic
-
-TCP traffic on arbitrary port numbers
+    UDP traffic
+    TCP traffic on arbitrary port numbers
 
 ### Que 6
 
