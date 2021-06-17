@@ -14,9 +14,9 @@ Understanding context is an analytical skill best described by which of the foll
 
 ### Answer
 
-Gathering additional information about data to understand the broader picture
-Identifying the motivation behind the collection of a dataset
-Adding descriptive headers to columns of data in a spreadsheet
+    Gathering additional information about data to understand the broader picture
+    Identifying the motivation behind the collection of a dataset
+    Adding descriptive headers to columns of data in a spreadsheet
 
 ### Question
 
