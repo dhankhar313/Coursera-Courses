@@ -22,9 +22,8 @@ What tactics can a data analyst use to effectively blend gut instinct with facts
 
 ### Answer
 
-Use their knowledge of how their company works to better understand a business need.
-
-Apply their unique past experiences to their current work, while keeping in mind the story the data is telling.
+    Use their knowledge of how their company works to better understand a business need.
+    Apply their unique past experiences to their current work, while keeping in mind the story the data is telling.
 
 ### Question
 
@@ -56,11 +55,9 @@ You have recently subscribed to an online data analytics magazine. You really en
 
 ### Answer
 
-Checking your post for typos or grammatical errors
-
-Giving credit to the original author
-
-Including your own thoughts about the article
+    Checking your post for typos or grammatical errors
+    Giving credit to the original author
+    Including your own thoughts about the article
 
 ### Question
 
@@ -108,11 +105,9 @@ What do subject-matter experts do to support data-driven decision-making? Select
 
 ### Answer
 
-Validate the choices made as a result of the data insights
-
-Review the results of data analysis and identify any inconsistencies
-
-Offer insights into the business problem
+    Validate the choices made as a result of the data insights
+    Review the results of data analysis and identify any inconsistencies
+    Offer insights into the business problem
 
 ### Question
 
