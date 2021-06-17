@@ -1,6 +1,6 @@
 # Week 1 Quiz
 
-### Question 1
+### Question
 
 Which of the following options describes data analysis?
 
@@ -8,7 +8,7 @@ Which of the following options describes data analysis?
 
 The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making
 
-### Question 2
+### Question
 
 In data analytics, a model is a group of elements that interact with one another.
 
@@ -16,15 +16,7 @@ In data analytics, a model is a group of elements that interact with one another
 
 False
 
-### Question 3
-
-Fill in the blank: The primary goal of a data **\_** is to create new questions using data.
-
-### Answer
-
-engineer
-
-### Question 4
+### Question
 
 What tactics can a data analyst use to effectively blend gut instinct with facts? Select all that apply.
 
@@ -34,7 +26,7 @@ Use their knowledge of how their company works to better understand a business n
 
 Apply their unique past experiences to their current work, while keeping in mind the story the data is telling.
 
-### Question 5
+### Question
 
 A furniture manufacturer wants to find a more environmentally friendly way to make its products. A data analyst helps solve this problem by gathering relevant data, analyzing it, and using it to draw conclusions. The analyst then shares their analysis with subject-matter experts from the manufacturing team, who validate the findings. Finally, a plan is put into action. This scenario describes data science.
 
@@ -42,7 +34,7 @@ A furniture manufacturer wants to find a more environmentally friendly way to ma
 
 False
 
-### Question 6
+### Question
 
 To get the most out of data-driven decision-making, it’s important to include insights from people very familiar with the business problem. Identify what these people are called.
 
@@ -50,7 +42,7 @@ To get the most out of data-driven decision-making, it’s important to include 
 
 Subject-matter experts
 
-### Question 7
+### Question
 
 You have just finished analyzing data for a marketing project. Before moving forward, you share your results with members of the marketing team to see if they might have additional insights into the business problem. What practice does this support?
 
@@ -58,7 +50,7 @@ You have just finished analyzing data for a marketing project. Before moving for
 
 Data-driven decision-making
 
-### Question 8
+### Question
 
 You have recently subscribed to an online data analytics magazine. You really enjoyed an article and want to share it in the discussion forum. Which of the following would be appropriate in a post? Select all that apply.
 
@@ -96,14 +88,6 @@ An intuitive understanding of something with little or no explanation
 
 ### Question
 
-Billings Upholstery has defined a problem it needs to solve: Find a more environmentally friendly way to produce its furniture. A data analyst gathers relevant data, analyzes it, and uses it to draw conclusions. The analyst then shares their analysis with subject-matter experts from the manufacturing team, who validate the findings. Finally, a plan is put into action. This scenario describes what process?
-
-### Answer
-
-Identification of trends - wrong
-
-### Question
-
 You read an interesting article about data analytics in a magazine and want to share some ideas from the article in the discussion forum. In your post, you include the author and a link to the original article. This would be an inappropriate use of the forum.
 
 ### Answer
@@ -116,7 +100,7 @@ A company defines a problem it wants to solve. Then, a data analyst gathers rele
 
 ### Answer
 
-Data Science-wrong
+Data-driven decision-making
 
 ### Question
 
@@ -137,3 +121,43 @@ Sharing the results of your analysis with colleagues who are very familiar with 
 ### Answer
 
 Data-driven decision-making
+
+### Question
+
+Fill in the blank: The term **\_** is defined as an intuitive understanding of something with little or no explanation.
+
+### Answer
+
+gut instinct
+
+### Question
+
+Fill in the blank: The people very familiar with a business problem are called **\_**. They are an important part of data-driven decision-making.
+
+### Answer
+
+subject-matter experts
+
+### Question
+
+The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making describes what?
+
+### Answer
+
+Data analysis
+
+### Question
+
+In data analytics, what term describes a collection of elements that interact with one another?
+
+### Answer
+
+A data ecosystem
+
+### Question
+
+Fill in the blank: Data **\_** involves creating new ways of modeling and understanding the unknown by using raw data.
+
+### Answer
+
+science
