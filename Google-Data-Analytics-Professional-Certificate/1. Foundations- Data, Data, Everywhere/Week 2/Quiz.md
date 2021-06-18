@@ -1,4 +1,4 @@
-# Week 2 Quiz (Incomplete)
+# Week 2 Quiz
 
 ### Question
 
@@ -128,7 +128,7 @@ Having a technical mindset is an analytical skill involving what?
 
 ### Answer
 
-Balancing roles and responsibilities- wrong
+Breaking things down into smaller steps or pieces
 
 ### Question
 
@@ -148,12 +148,16 @@ correlation
 
 ### Question
 
+A junior data analyst is seeking out new experiences in order to gain knowledge. They watch videos and read articles about data analytics. They ask experts questions. Which analytical skill are they using?
+
 ### Answer
+
+Curiosity
 
 ### Question
 
-### Answer
-
-### Question
+Data-driven decision-making involves the five analytical skills: curiosity, understanding context, having a technical mindset, data design, and data strategy. Each plays a role in data-driven decision-making.
 
 ### Answer
+
+True
