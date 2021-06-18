@@ -6,7 +6,7 @@ Which of the following options describes data analysis?
 
 ### Answer
 
-The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making
+The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.
 
 ### Question
 
