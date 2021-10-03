@@ -46,7 +46,8 @@ Which of the following examples are leading questions? Select all that apply.
 
 ### Answer
 
-    How satisfied were you with our customer representative?In what ways did our product meet your needs?
+    How satisfied were you with our customer representative
+    In what ways did our product meet your needs?
     What do you enjoy most about our service?
 
 ### Question
